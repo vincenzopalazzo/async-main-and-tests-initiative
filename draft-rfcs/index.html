@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Draft RFCs - {{GROUP_NAME}} {{GROUP_TYPE}} Group</title>
+        <title>🪚 Draft RFCs - Async Main and Test initiative</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">Welcome</a></li><li class="chapter-item expanded "><a href="../CHARTER.html">Charter</a></li><li class="chapter-item expanded "><a href="../meetings/index.html">Meetings</a></li><li class="chapter-item expanded "><a href="../draft-rfcs/index.html" class="active">Draft RFCs</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">👋🏽 Welcome</a></li><li class="chapter-item expanded "><a href="../CHARTER.html">👩‍🏭 Charter</a></li><li class="chapter-item expanded "><a href="../EXPERIMENT.html">👩‍🏭 Experiment</a></li><li class="chapter-item expanded "><a href="../meetings/index.html">💭 Meetings</a></li><li class="chapter-item expanded "><a href="../draft-rfcs/index.html" class="active">🪚 Draft RFCs</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -104,7 +104,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">{{GROUP_NAME}} {{GROUP_TYPE}} Group</h1>
+                    <h1 class="menu-title">Async Main and Test initiative</h1>
 
                     <div class="right-buttons">
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
@@ -138,11 +138,14 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="rfc-drafts"><a class="header" href="#rfc-drafts">RFC drafts</a></h1>
-<p>This folder contains drafts of RFCs that the group is preparing to submit.</p>
-<!--
-Once the group has submitted RFCs, the drafts should be deleted from this folder,
-and links to the pull requests on the RFC repository should be listed here.
--->
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span>/// waiting resolution rfc goal
+async fn rfc(&amp;mut self) {
+    self.goal.await?;
+}
+<span class="boring">}
+</span></code></pre></pre>
 
                     </main>
 
